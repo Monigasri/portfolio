@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Projects - Monigasri's Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: rgb(236, 179, 179);
+            color: #333;
+        }
+
+        header {
+            background-color: rgb(255, 240, 240);
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            color: #222;
+            font-size: 2.5rem;
+        }
+
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .project-card {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .project-content {
+            padding: 15px;
+        }
+
+        .project-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        .project-content p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .cta-button {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            margin: 10px 15px;
+            background-color: #222;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore More Projects</h1>
+    </header>
+    <div class="projects-container">
+        <div class="project-card">
+            <img src="chat app image.jpeg" alt="Chat Application">
+            <div class="project-content">
+                <h3>Chat Application</h3>
+                <p>A real-time chat app with interactive UI for seamless communication.</p>
+                <a href="chat_app.html" class="cta-button">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="personal blog.jpeg" alt="Personal Blog">
+            <div class="project-content">
+                <h3>Personal Blog</h3>
+                <p>A clean and responsive blogging platform for sharing ideas.</p>
+                <a href="blog.html" class="cta-button">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="finace tracker.jpeg" alt="Finance Tracker">
+            <div class="project-content">
+                <h3>Finance Tracker</h3>
+                <p>A tool to manage expenses and track financial goals efficiently.</p>
+                <a href="finance_tracker.html" class="cta-button">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="more images.jpeg" alt="Task Manager">
+            <div class="project-content">
+                <h3>Task Manager</h3>
+                <p>A productivity app to organize tasks and increase efficiency.</p>
+                <a href="task_manager.html" class="cta-button">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="quizz app.jpeg" alt="Quiz App">
+            <div class="project-content">
+                <h3>Quiz App</h3>
+                <p>An interactive quiz platform to test knowledge and learn new things.</p>
+                <a href="quiz_app.html" class="cta-button">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="port v2.png" alt="Portfolio V2">
+            <div class="project-content">
+                <h3>Portfolio V2</h3>
+                <p>An enhanced version of my portfolio showcasing advanced design skills.</p>
+                <a href="portfolio_v2.html" class="cta-button">View Project</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
